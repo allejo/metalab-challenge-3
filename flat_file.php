@@ -1,6 +1,6 @@
 <?php
 
-$csv_file ="data.csv";
+$csv_file = "data.csv";
 $headers  = array('id', 'first-name', 'last-name', 'persona', 'sex');
 $csv_data = array_map('str_getcsv', file($csv_file));
 
